@@ -20,17 +20,16 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+import sys
+import os
+import imp
+import struct
+import argparse
 
-__all__ = [
-    # public symbols
-    "scriptName",
-    "scriptVersion",
-     ]
+scriptPath,scriptName=os.path.split(sys.argv[0])
 
-scriptName="jp2StructCheck"
-scriptVersion = "30 August 2011"
+__version__= "30 August 2011"
 
-import sys, os, imp, struct, argparse
   
 def main_is_frozen():
     return (hasattr(sys, "frozen") or # new py2exe
@@ -217,7 +216,7 @@ def checkOneFile(file,verboseOutputFlag):
   
 def parseCommandLine():
     # Create parser
-    parser = argparse.ArgumentParser(description="Verify structure of JP2 image",version=scriptVersion)
+    parser = argparse.ArgumentParser(description="Verify structure of JP2 image",version=__version__)
  
     # Add arguments
     parser.add_argument('jp2In', action="store", help="input JP2 image")
