@@ -1,0 +1,48 @@
+******************************************************
+** jp2StructCheck version 31 August 2011 *************
+** Simple JP2 file structure checker *****************
+******************************************************
+
+** Copyright notice **
+
+Copyright (C) 2011 Johan van der Knijff, Koninklijke Bibliotheek - 
+National Library of the Netherlands
+	
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+** Contents of this repository **
+
+source		: Source code
+distWin32		: Binary distribution for 32 bit Windows
+doc			: Documentation
+testImages		: Small data set with test images (see readme.txt and documentation
+				for a description)
+
+
+** Command line synopsis (see documentation for details) **
+
+usage: jp2StructCheck.py [-h] [-v] [-t] jp2In
+
+Verify structure of JP2 image
+
+positional arguments:
+  jp2In          path to input JP2 image(s)
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -v, --version  show program's version number and exit
+  -t             report output in terse format
+
+
