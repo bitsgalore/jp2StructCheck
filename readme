@@ -18,20 +18,19 @@ You should have received a copy of the GNU General Public License along with thi
 
 - Test images
 
-
 ** Command line synopsis (see PDF documentation for details)**
 
 usage: jp2StructCheck.py [-h] [-v] [-t] jp2In
 
 positional arguments:
 
- jp2In:  path to input JP2 image(s)
+ jp2In: path to input JP2 image(s)
 
 optional arguments:
 
- -h, --help: show this help message and exit
+ -h, --help: show this help message and exit
 
- -v, --version: show program's version number and exit
+ -v, --version: show program's version number and exit
 
-  -t:    report output in terse format
+ -t: report output in terse format
 
