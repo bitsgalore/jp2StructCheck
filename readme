@@ -1,7 +1,9 @@
-***jp2StructCheck version 31 August 2011***
-
+**************************************************************
+jp2StructCheck version 31 August 2011
+**************************************************************
 Simple JP2 file structure checker
 
+**************************************************************
 Copyright (C) 2011 Johan van der Knijff, Koninklijke Bibliotheek - National Library of the Netherlands
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
@@ -10,15 +12,22 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
 
-** Additional materials available through 'downloads':**
+**************************************************************
+Additional materials available through 'downloads':
+**************************************************************
 
-- Binary distribution for 32 bit Windows
+- Binary distribution for 32 bit Windows:
+https://github.com/downloads/bitsgalore/jp2StructCheck/jp2StructCheck31082011distWin32.zip
 
-- Documentation (PDF)
+- Documentation (PDF):
+https://github.com/downloads/bitsgalore/jp2StructCheck/jp2StructCheck.pdf
 
-- Test images
+- Test images:
+https://github.com/downloads/bitsgalore/jp2StructCheck/testImages.zip
 
-** Command line synopsis (see PDF documentation for details)**
+**************************************************************
+Command line synopsis (see PDF documentation for details):
+**************************************************************
 
 usage: jp2StructCheck.py [-h] [-v] [-t] jp2In
 
@@ -33,4 +42,6 @@ optional arguments:
  -v, --version: show program's version number and exit
 
  -t: report output in terse format
+
+**************************************************************
 

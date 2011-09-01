@@ -110,7 +110,8 @@ def checkCodestreamCompleteness(jp2c):
     # Check match against end of codestream marker (0xFFd9)
     if cTrailingBytes==b'\xff\xd9':
         codestreamComplete=True
-    else: codestreamComplete=False
+    else:
+        codestreamComplete=False
     
     return(codestreamComplete)
 
